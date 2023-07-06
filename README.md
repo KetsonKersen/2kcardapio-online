@@ -10,4 +10,4 @@ Bibliotecas utilizadas na criação do projeto:
 - framer-motion
 - react-icons
 
-
+Acesse: https://2kcardapio-online.vercel.app/
