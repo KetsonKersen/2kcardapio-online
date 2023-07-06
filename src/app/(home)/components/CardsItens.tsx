@@ -35,9 +35,8 @@ const CardsItens = (props:any)=>{
         const newRes:any = JSON.parse(newData)
         setQntItems(newRes.length)
     }
-    
     return (
-        <main className="w-full grid grid-cols-1 gap-4 pb-10 esm:grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-4 md:max-w-screen-md lg:max-w-screen-lg ">
+        <main className="w-full grid grid-cols-1 gap-4 pb-10 xsm:px-8 sm:grid-cols-2 sm:gap-1 sm:px-0 md:grid-cols-3 md:gap-3 lg:grid-cols-4 md:max-w-3xl lg:max-w-5xl">
             {category.map((item)=>{
                 return(
                     <motion.div animate={{y:[150,0]}} key={item.name} onMouseLeave={()=>setCount(1)} className="flip-container">

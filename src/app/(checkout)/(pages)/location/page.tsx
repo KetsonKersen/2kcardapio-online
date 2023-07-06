@@ -75,12 +75,12 @@ const Location = ()=>{
                         <input id="cep" className="w-full h-10 pl-4 bg-white rounded-md" type="text" value={input} placeholder="Digite o seu Cep" onChange={(e)=>{setInput(e.target.value)}}/>
                         <button className="w-10 h-full flex justify-center items-center text-xl font-semibold absolute top-0 right-0 bg-yellow-400 rounded-r-md" onClick={()=>GetDataLocation(`https://viacep.com.br/ws/${input}/json/`, event)}><FaSearchLocation/></button>
                     </div>
-                    <input id="rua" className="w-full h-10 px-4 bg-white rounded-md border-2 border-hidden sm:w-72 md:w-full" type="text" value={state.logradouro} placeholder="Rua:"/>
-                    <input id="numero"className="w-full h-10 px-4 bg-white rounded-md border-2 border-hidden sm:w-72 md:w-full" type="text" placeholder="Numero:"/>
-                    <input id="bairro" className="w-full h-10 px-4 bg-white rounded-md border-2 border-hidden sm:w-72 md:w-full" type="text" value={state.bairro} placeholder="Bairro:"/>
-                    <input id="cidade" className="w-full h-10 px-4 bg-white rounded-md border-2 border-hidden sm:w-72 md:w-full" type="text" value={state.localidade} placeholder="Cidade:"/>
-                    <input id="estado" className="w-full h-10 px-4 bg-white rounded-md border-2 border-hidden sm:w-72 md:w-full" type="text" value={state.uf} placeholder="Estado:"/>
-                    <input className="w-full h-10 px-4 bg-white rounded-md border-2 border-hidden sm:w-72 md:w-full" type="text" placeholder="Complemento:"/>
+                    <input id="rua" className="w-full h-10 px-4 bg-white rounded-md border-2 border-hidden sm:w-full" type="text" value={state.logradouro} placeholder="Rua:"/>
+                    <input id="numero"className="w-full h-10 px-4 bg-white rounded-md border-2 border-hidden sm:w-full" type="text" placeholder="Numero:"/>
+                    <input id="bairro" className="w-full h-10 px-4 bg-white rounded-md border-2 border-hidden sm:w-full" type="text" value={state.bairro} placeholder="Bairro:"/>
+                    <input id="cidade" className="w-full h-10 px-4 bg-white rounded-md border-2 border-hidden sm:w-full" type="text" value={state.localidade} placeholder="Cidade:"/>
+                    <input id="estado" className="w-full h-10 px-4 bg-white rounded-md border-2 border-hidden sm:w-full" type="text" value={state.uf} placeholder="Estado:"/>
+                    <input className="w-full h-10 px-4 bg-white rounded-md border-2 border-hidden sm:w-full" type="text" placeholder="Complemento:"/>
                     <button onClick={()=>CheckLocationData(event)} className="w-full h-10 bg-yellow-400 rounded-md">Confirmar endereço</button>
                 </form>
                 <p className="w-full text-center text-red-600">{erroCapos}</p>

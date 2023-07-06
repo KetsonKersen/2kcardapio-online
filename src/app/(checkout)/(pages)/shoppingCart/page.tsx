@@ -36,7 +36,7 @@ const Pagina1 = ()=>{
             localStorage.setItem("PaymentCurrent",JSON.stringify(soma))
         }
     }
- 
+    // md:max-w-3xl lg:max-w-5xl
     return( 
         <>
             <Header point='w-0'/>
@@ -57,7 +57,7 @@ const Pagina1 = ()=>{
                                             <p className="font-semibold text-lg text-yellow-400">{(item.price * item.qnt).toLocaleString('pt-br',{style: 'currency', currency: 'BRL'})}</p>
                                         </div>
                                     </div>
-                                    <div className="flex items-center rounded-md">
+                                    <div className="flex flex-col-reverse 2xsm:flex-row items-center rounded-md ">
                                         <p>Qnt: x{item.qnt}</p>
                                         <button onClick={()=>RemoveItemCart(index)} className="w-8 h-8 flex items-center justify-center bg-red-500 rounded-md text-white font-semibold ml-4">X</button>
                                     </div>

@@ -57,7 +57,7 @@ const Confirm = ()=>{
     }
     const Confirm = ()=>{
         return(
-            <div className="h-96 bg-white flex flex-col items-center justify-center gap-4 text-center absolute w-full top-0 left-0 z-10">
+            <div className="w-full h-full bg-white flex flex-col items-center justify-center gap-4 text-center absolute top-0 left-0 z-10">
                 <p className="text-3xl">Pedido finalizado com sucesso</p>
                 <p className="text-xl">Obrigado pela preferencia</p>
                 <div className="w-32 h-32 flex items-center justify-center rounded-full text-8xl font-extrabold text-white bg-green-500">
