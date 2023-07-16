@@ -1,4 +1,4 @@
-# 2kCardapio-Online!
+# 2kCardapio-Online
 ![CardapioOnline](https://github.com/KetsonKersen/2kcardapio-online/assets/127996989/1e2e4374-2492-4941-9d75-df53d9994e4d)
 
 2kCardapio-Online é um site de pedidos online, o usuário pode navegar pelo sistema de categorias para para escolher o seu pedido, confirmar carrinho, adicionar endereço para entrega, escolher a forma de pagamento e confirmar pedido.
