@@ -18,8 +18,6 @@ const Pagina1 = ()=>{
         }
     },[])
 
-
-
     const RemoveItemCart = (item:never)=>{
         const index = state.indexOf(item)
         if(index > -1){
@@ -36,7 +34,6 @@ const Pagina1 = ()=>{
             localStorage.setItem("PaymentCurrent",JSON.stringify(soma))
         }
     }
-    // md:max-w-3xl lg:max-w-5xl
     return( 
         <>
             <Header point='w-0'/>
@@ -75,7 +72,6 @@ const Pagina1 = ()=>{
                     <button onClick={()=>CheckItems()} className={`w-64 h-10 ${state.length == 0 ? 'bg-zinc-500 cursor-not-allowed hover:none' : 'bg-green-400 hover:bg-green-500'} rounded-md text-white`}>Confirmar</button>
                 </div>
             </section>
-        
         </>
     )
 }
