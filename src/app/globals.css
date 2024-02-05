@@ -39,28 +39,3 @@ input{
 .back{
 	transform: rotateY(180deg);
 }
-
-/* ===== Scrollbar CSS ===== */
-  /* Firefox */
-  * {
-    scrollbar-width: 10px;
-    scrollbar-color: #8f54a0 #ff0000;
-  }
-
-  /* Chrome, Edge, and Safari */
-  *::-webkit-scrollbar {
-    width: 10px;
-  }
-
-  *::-webkit-scrollbar-track {
-    background: #9c9c9c44;
-  }
-
-  *::-webkit-scrollbar-thumb {
-    background-color: #facc15;
-    border-radius: 10px;
-  }
-
-  #scrollHidden::-webkit-scrollbar-track {
-    background: transparent;
-  }
