@@ -13,8 +13,8 @@
 - Frontend: Next.js e TypeScript
 - API: VIACEP
 - Estilo: TailwindCSS
-- Animação: framer-motion
 - Icones: react-icons
+- Animação: framer-motion
 
 ## 🔗 Links
 Acesse: https://2kcardapio-online.vercel.app/
